@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 :root {
-  --clr-main: #4b33a8;
+  --clr-main: rgb(38, 49, 74);
   --clr-main-light: #785ce9;
   --clr-white: #ececec;
   --clr-gray: #e2e2e2;
@@ -69,4 +69,107 @@ main{
   margin-bottom: 2rem;
 }
 
+.wrapperrr {
+  width: 100%; /* Cambiado a 100% para ocupar todo el espacio del contenedor principal */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(25% - 1rem), 1fr)); 
+  gap: 1rem;
+}
+
+.wrapperrr .card {
+  position: relative;
+  border-radius: 3px;
+  background: #ececec;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* El resto de tus estilos se mantiene igual */
+
+.wrapperrr .card img{
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.wrapperrr .card:hover img{
+    transform: scale(1.1);
+}
+
+
+.wrapperrr .card .content {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    bottom: -60%;
+    padding: 10px 20px 22px 20px;
+    box-shadow: 0px -3px 10px opx rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+}
+
+.wrapperrr .card:hover .content {
+    bottom: 0;
+}
+
+.card .content .row,
+.card .content .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .content .details span{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+}
+.card .content .details p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.content .row .price {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--clr-main);
+}
+
+.content .buttons {
+    margin-top: 20px;
+}
+
+.content .buttons button {
+    width: 100%;
+    outline: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 500px;
+    border-radius: 3px;
+    border: 2px solid var(--clr-main);
+    cursor: pointer;
+    user-select: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.buttons button:first-child {
+    color: var(--clr-main);
+    background: #fff;
+    margin-right: 10px;
+}
+
+.buttons button:first-child:hover {
+    color: #fff;
+    background: var(--clr-main);
+}
+
+.buttons button:last-child {
+    color: #fff;
+    background: var(--clr-main);
+    margin-left: 10px;
+}
+.buttons button:last-child:hover {
+    background: var(--clr-main);
+    border-color:var(--clr-main);
+}
 
