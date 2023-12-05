@@ -416,6 +416,7 @@ botonesCategorias.forEach(boton => {
       tituloPrincipal.innerText = productosCategoria.categoria.nombre;
       console.log(productosCategoria)
       const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
+      console.log("Productos filtrados:", productosBoton);
       cargarProductos(productosBoton)
     }else {
       tituloPrincipal.innerText = "Todos los productos"
