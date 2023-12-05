@@ -2,7 +2,7 @@ const productos = [
   {
     id: "shoes-01",
     titulo: "Nike black",
-    imagen: "./img/shoes/01.jpg",
+    imagen: "first-file//img/shoes/01.jpg",
     categoria: {
       nombre: "Nike black",
       id: "shoes"
@@ -12,7 +12,7 @@ const productos = [
   {
     id: "shoes-02",
     titulo: "Jordan 14",
-    imagen: "./img/shoes/11.jpg",
+    imagen: "first-file//img/shoes/11.jpg",
     categoria: {
       nombre: "Jordan 14",
       id: "shoes"
@@ -22,7 +22,7 @@ const productos = [
   {
     id: "shoes-03",
     titulo: "Jordan 12",
-    imagen: "./img/shoes/10.jpg",
+    imagen: "first-file//img/shoes/10.jpg",
     categoria: {
       nombre: "Jordan 12",
       id: "shoes"
@@ -32,7 +32,7 @@ const productos = [
   {
     id: "shoes-04",
     titulo: " black pro",
-    imagen: "./img/shoes/04.jpg",
+    imagen: "first-file//img/shoes/04.jpg",
     categoria: {
       nombre: "Nike black pro",
       id: "shoes"
@@ -42,7 +42,7 @@ const productos = [
   {
     id: "shoes-05",
     titulo: "Jordan 13",
-    imagen: "./img/shoes/09.jpg",
+    imagen: "first-file//img/shoes/09.jpg",
     categoria: {
       nombre: "Jordan 13",
       id: "shoes"
@@ -52,7 +52,7 @@ const productos = [
   {
     id: "shoes-06",
     titulo: "Jordan 11 gray",
-    imagen: "./img/shoes/13.jpg",
+    imagen: "first-file//img/shoes/13.jpg",
     categoria: {
       nombre: "Jordan 11 gray",
       id: "shoes"
@@ -62,7 +62,7 @@ const productos = [
   {
     id: "shoes-7",
     titulo: "Jordan 11 black",
-    imagen: "./img/shoes/12.jpg",
+    imagen: "first-file//img/shoes/12.jpg",
     categoria: {
       nombre: "Jordan 11 black",
       id: "shoes"
@@ -73,7 +73,7 @@ const productos = [
   {
     id: "camiseta-01",
     titulo: "Camiseta 01",
-    imagen: "./img/t-shirt/01.jpg",
+    imagen: "first-file//img/t-shirt/01.jpg",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -83,7 +83,7 @@ const productos = [
   {
     id: "camiseta-02",
     titulo: "Camiseta 02",
-    imagen: "./img/t-shirt/02.jpg",
+    imagen: "first-file//img/t-shirt/02.jpg",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -93,7 +93,7 @@ const productos = [
   {
     id: "camiseta-03",
     titulo: "Camiseta 03",
-    imagen: "./img/t-shirt/03.jpg",
+    imagen: "first-file//img/t-shirt/03.jpg",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -103,7 +103,7 @@ const productos = [
   {
     id: "camiseta-05",
     titulo: "Camiseta 05",
-    imagen: "./img/t-shirt/05.jpg",
+    imagen: "first-file//img/t-shirt/05.jpg",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -113,7 +113,7 @@ const productos = [
   {
     id: "camiseta-06",
     titulo: "Camiseta 06",
-    imagen: "./img/t-shirt/06.jpg",
+    imagen: "first-file//img/t-shirt/06.jpg",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -123,7 +123,7 @@ const productos = [
   {
     id: "camiseta-07",
     titulo: "Camiseta 07",
-    imagen: "./img/t-shirt/07.jpg",
+    imagen: "first-file//img/t-shirt/07.jpg",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -135,7 +135,7 @@ const productos = [
   {
     id: "pantalon-01",
     titulo: "Pantalón 01",
-    imagen: "./img/pantalones/01.jpg",
+    imagen: "first-file//img/pantalones/01.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -145,7 +145,7 @@ const productos = [
   {
     id: "pantalon-02",
     titulo: "Pantalón 02",
-    imagen: "./img/pantalones/02.jpg",
+    imagen: "first-file//img/pantalones/02.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -155,7 +155,7 @@ const productos = [
   {
     id: "pantalon-03",
     titulo: "Pantalón 03",
-    imagen: "./img/pantalones/03.jpg",
+    imagen: "first-file//img/pantalones/03.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -165,7 +165,7 @@ const productos = [
   {
     id: "pantalon-04",
     titulo: "Pantalón 04",
-    imagen: "./img/pantalones/04.jpg",
+    imagen: "first-file//img/pantalones/04.jpg",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -177,7 +177,7 @@ const productos = [
   {
     id: "aidors-01",
     titulo: "Airdots pro 3",
-    imagen: "./img/airdors/01.jpg",
+    imagen: "first-file//img/airdors/01.jpg",
     categoria: {
       nombre: "Airdots pro 3",
       id: "airdots"
@@ -187,7 +187,7 @@ const productos = [
   {
     id: "airdot-02",
     titulo: "Airdots pro mini",
-    imagen: "./img/airdors/02.jpg",
+    imagen: "first-file//img/airdors/02.jpg",
     categoria: {
       nombre: "Airdots pro mini",
       id: "airdots"
@@ -197,7 +197,7 @@ const productos = [
   {
     id: "airdot-03",
     titulo: "Airdots pro 1 white",
-    imagen: "./img/airdors/03.jpg",
+    imagen: "first-file//img/airdors/03.jpg",
     categoria: {
       nombre: "Airdots pro white",
       id: "airdots"
@@ -207,7 +207,7 @@ const productos = [
   {
     id: "airdot-04",
     titulo: "Airdots red",
-    imagen: "./img/airdors/05.jpg",
+    imagen: "first-file//img/airdors/05.jpg",
     categoria: {
       nombre: "Airdots red",
       id: "airdots"
@@ -217,7 +217,7 @@ const productos = [
   {
     id: "airdot-05",
     titulo: "Airdots white max",
-    imagen: "./img/airdors/04.jpg",
+    imagen: "first-file//img/airdors/04.jpg",
     categoria: {
       nombre: "Airdots white max",
       id: "airdots"
@@ -229,7 +229,7 @@ const productos = [
   {
     id: "headphone-01",
     titulo: "Headphone red",
-    imagen: "./img/headphone/01.jpg",
+    imagen: "first-file//img/headphone/01.jpg",
     categoria: {
       nombre: "Headphone red",
       id: "headphone"
@@ -239,7 +239,7 @@ const productos = [
   {
     id: "headphone-02",
     titulo: "Headphone red pro",
-    imagen: "./img/headphone/02.jpg",
+    imagen: "first-file//img/headphone/02.jpg",
     categoria: {
       nombre: "Headphone red pro",
       id: "headphone"
@@ -249,7 +249,7 @@ const productos = [
   {
     id: "headphone-03",
     titulo: "Headphone black",
-    imagen: "./img/headphone/03.jpg",
+    imagen: "first-file//img/headphone/03.jpg",
     categoria: {
       nombre: "Headphone black",
       id: "headphone"
@@ -259,7 +259,7 @@ const productos = [
   {
     id: "headphone-04",
     titulo: "Headphone black pro",
-    imagen: "./img/headphone/04.jpg",
+    imagen: "first-file//img/headphone/04.jpg",
     categoria: {
       nombre: "Headphone black pro",
       id: "headphone"
@@ -269,7 +269,7 @@ const productos = [
   {
     id: "headphone-05",
     titulo: "Headphone orange",
-    imagen: "./img/headphone/05.jpg",
+    imagen: "first-file//img/headphone/05.jpg",
     categoria: {
       nombre: "Headphone orange",
       id: "headphone"
@@ -280,7 +280,7 @@ const productos = [
   {
     id: "phone-01",
     titulo: "Iphone 14 pro max",
-    imagen: "./img/phone/01.jpg",
+    imagen: "first-file//img/phone/01.jpg",
     categoria: {
       nombre: "Iphone 14 pro max",
       id: "phone"
@@ -290,7 +290,7 @@ const productos = [
   {
     id: "phone-02",
     titulo: "Iphone 15 pro max",
-    imagen: "./img/phone/02.jpg",
+    imagen: "first-file//img/phone/02.jpg",
     categoria: {
       nombre: "Iphone 15 pro max",
       id: "phone"
@@ -300,7 +300,7 @@ const productos = [
   {
     id: "phone-03",
     titulo: "Samsung S21 ultra",
-    imagen: "./img/phone/09.jpg",
+    imagen: "first-file//img/phone/09.jpg",
     categoria: {
       nombre: "Samsung S21 ultra",
       id: "phone"
@@ -310,7 +310,7 @@ const productos = [
   {
     id: "phone-04",
     titulo: "Samsung s22 ultra",
-    imagen: "./img/phone/11.jpg",
+    imagen: "first-file//img/phone/11.jpg",
     categoria: {
       nombre: "Samsung s22 ultra",
       id: "phone"
@@ -322,7 +322,7 @@ const productos = [
   {
     id: "abrigo-01",
     titulo: "Abrigo 01",
-    imagen: "./img/abrigos/01.jpg",
+    imagen: "first-file//img/abrigos/01.jpg",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -332,7 +332,7 @@ const productos = [
   {
     id: "abrigo-02",
     titulo: "Abrigo 02",
-    imagen: "./img/abrigos/02.jpg",
+    imagen: "first-file//img/abrigos/02.jpg",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -342,7 +342,7 @@ const productos = [
   {
     id: "abrigo-03",
     titulo: "Abrigo 03",
-    imagen: "./img/abrigos/03.jpg",
+    imagen: "first-file//img/abrigos/03.jpg",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -352,7 +352,7 @@ const productos = [
   {
     id: "abrigo-04",
     titulo: "Abrigo 04",
-    imagen: "./img/abrigos/04.jpg",
+    imagen: "first-file//img/abrigos/04.jpg",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -362,7 +362,7 @@ const productos = [
   {
     id: "abrigo-05",
     titulo: "Abrigo 05",
-    imagen: "./img/abrigos/05.jpg",
+    imagen: "first-file//img/abrigos/05.jpg",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -468,7 +468,7 @@ function actualizarNumerito() {
 
 /*
 <div class="card">
-<img src="./img/pantalones/03.jpg" alt="black headphone">
+<img src="first-file//img/pantalones/03.jpg" alt="black headphone">
 <div class="content">
     <div class="row">
         <div class="details">
