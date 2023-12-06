@@ -3,6 +3,7 @@ const productos = [
     id: "shoes-01",
     titulo: "Nike black",
     imagen: "first-file//img/shoes/01.jpg",
+    details: "Future nike,comfort and good price",
     categoria: {
       nombre: "Nike black",
       id: "shoes"
@@ -11,38 +12,42 @@ const productos = [
   },
   {
     id: "shoes-02",
-    titulo: "Jordan 14",
+    titulo: "Jordan 11 retro",
     imagen: "first-file//img/shoes/11.jpg",
+    details: "quality first and foremost",
     categoria: {
-      nombre: "Jordan 14",
+      nombre: "Jordan 11 retro",
       id: "shoes"
     },
-    precio: 150
+    precio: 300
   },
   {
     id: "shoes-03",
-    titulo: "Jordan 12",
+    titulo: "Jordan 23",
     imagen: "first-file//img/shoes/10.jpg",
+    details: "quality first and foremost",
     categoria: {
-      nombre: "Jordan 12",
+      nombre: "Jordan 23",
       id: "shoes"
     },
     precio: 140
   },
   {
     id: "shoes-04",
-    titulo: " black pro",
+    titulo: " Black Power nike",
     imagen: "first-file//img/shoes/04.jpg",
+    details: "feel the power in your feet",
     categoria: {
       nombre: "Nike black pro",
       id: "shoes"
     },
-    precio: 125
+    precio: 300
   },
   {
     id: "shoes-05",
     titulo: "Jordan 13",
     imagen: "first-file//img/shoes/09.jpg",
+    details: "nike",
     categoria: {
       nombre: "Jordan 13",
       id: "shoes"
@@ -53,6 +58,7 @@ const productos = [
     id: "shoes-06",
     titulo: "Jordan 11 gray",
     imagen: "first-file//img/shoes/13.jpg",
+    details: "nike",
     categoria: {
       nombre: "Jordan 11 gray",
       id: "shoes"
@@ -63,6 +69,7 @@ const productos = [
     id: "shoes-7",
     titulo: "Jordan 11 black",
     imagen: "first-file//img/shoes/12.jpg",
+    details: "nike",
     categoria: {
       nombre: "Jordan 11 black",
       id: "shoes"
@@ -74,6 +81,7 @@ const productos = [
     id: "camiseta-01",
     titulo: "Camiseta 01",
     imagen: "first-file//img/t-shirt/01.jpg",
+    details: "nike",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -84,6 +92,7 @@ const productos = [
     id: "camiseta-02",
     titulo: "Camiseta 02",
     imagen: "first-file//img/t-shirt/02.jpg",
+    details: "nike",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -94,6 +103,7 @@ const productos = [
     id: "camiseta-03",
     titulo: "Camiseta 03",
     imagen: "first-file//img/t-shirt/03.jpg",
+    details: "nike",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -104,6 +114,7 @@ const productos = [
     id: "camiseta-05",
     titulo: "Camiseta 05",
     imagen: "first-file//img/t-shirt/05.jpg",
+    details: "nike",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -114,6 +125,7 @@ const productos = [
     id: "camiseta-06",
     titulo: "Camiseta 06",
     imagen: "first-file//img/t-shirt/06.jpg",
+    details: "nike",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -124,6 +136,7 @@ const productos = [
     id: "camiseta-07",
     titulo: "Camiseta 07",
     imagen: "first-file//img/t-shirt/07.jpg",
+    details: "nike",
     categoria: {
       nombre: "T-shirt",
       id: "t-shirt"
@@ -136,6 +149,7 @@ const productos = [
     id: "pantalon-01",
     titulo: "Pantalón 01",
     imagen: "first-file//img/pantalones/01.jpg",
+    details: "nike",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -146,6 +160,7 @@ const productos = [
     id: "pantalon-02",
     titulo: "Pantalón 02",
     imagen: "first-file//img/pantalones/02.jpg",
+    details: "nike",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -156,6 +171,7 @@ const productos = [
     id: "pantalon-03",
     titulo: "Pantalón 03",
     imagen: "first-file//img/pantalones/03.jpg",
+    details: "nike",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -166,6 +182,7 @@ const productos = [
     id: "pantalon-04",
     titulo: "Pantalón 04",
     imagen: "first-file//img/pantalones/04.jpg",
+    details: "nike",
     categoria: {
       nombre: "Pantalones",
       id: "pantalones"
@@ -178,6 +195,7 @@ const productos = [
     id: "aidors-01",
     titulo: "Airdots pro 3",
     imagen: "first-file//img/airdors/01.jpg",
+    details: "nike",
     categoria: {
       nombre: "Airdots pro 3",
       id: "airdots"
@@ -188,6 +206,7 @@ const productos = [
     id: "airdot-02",
     titulo: "Airdots pro mini",
     imagen: "first-file//img/airdors/02.jpg",
+    details: "nike",
     categoria: {
       nombre: "Airdots pro mini",
       id: "airdots"
@@ -198,6 +217,7 @@ const productos = [
     id: "airdot-03",
     titulo: "Airdots pro 1 white",
     imagen: "first-file//img/airdors/03.jpg",
+    details: "nike",
     categoria: {
       nombre: "Airdots pro white",
       id: "airdots"
@@ -208,6 +228,7 @@ const productos = [
     id: "airdot-04",
     titulo: "Airdots red",
     imagen: "first-file//img/airdors/05.jpg",
+    details: "nike",
     categoria: {
       nombre: "Airdots red",
       id: "airdots"
@@ -218,6 +239,7 @@ const productos = [
     id: "airdot-05",
     titulo: "Airdots white max",
     imagen: "first-file//img/airdors/04.jpg",
+    details: "nike",
     categoria: {
       nombre: "Airdots white max",
       id: "airdots"
@@ -230,6 +252,7 @@ const productos = [
     id: "headphone-01",
     titulo: "Headphone red",
     imagen: "first-file//img/headphone/01.jpg",
+    details: "nike",
     categoria: {
       nombre: "Headphone red",
       id: "headphone"
@@ -240,6 +263,7 @@ const productos = [
     id: "headphone-02",
     titulo: "Headphone red pro",
     imagen: "first-file//img/headphone/02.jpg",
+    details: "nike",
     categoria: {
       nombre: "Headphone red pro",
       id: "headphone"
@@ -250,6 +274,7 @@ const productos = [
     id: "headphone-03",
     titulo: "Headphone black",
     imagen: "first-file//img/headphone/03.jpg",
+    details: "nike",
     categoria: {
       nombre: "Headphone black",
       id: "headphone"
@@ -260,6 +285,7 @@ const productos = [
     id: "headphone-04",
     titulo: "Headphone black pro",
     imagen: "first-file//img/headphone/04.jpg",
+    details: "nike",
     categoria: {
       nombre: "Headphone black pro",
       id: "headphone"
@@ -270,6 +296,7 @@ const productos = [
     id: "headphone-05",
     titulo: "Headphone orange",
     imagen: "first-file//img/headphone/05.jpg",
+    details: "nike",
     categoria: {
       nombre: "Headphone orange",
       id: "headphone"
@@ -281,6 +308,7 @@ const productos = [
     id: "phone-01",
     titulo: "Iphone 14 pro max",
     imagen: "first-file//img/phone/01.jpg",
+    details: "nike",
     categoria: {
       nombre: "Iphone 14 pro max",
       id: "phone"
@@ -291,6 +319,7 @@ const productos = [
     id: "phone-02",
     titulo: "Iphone 15 pro max",
     imagen: "first-file//img/phone/02.jpg",
+    details: "nike",
     categoria: {
       nombre: "Iphone 15 pro max",
       id: "phone"
@@ -301,6 +330,7 @@ const productos = [
     id: "phone-03",
     titulo: "Samsung S21 ultra",
     imagen: "first-file//img/phone/09.jpg",
+    details: "nike",
     categoria: {
       nombre: "Samsung S21 ultra",
       id: "phone"
@@ -311,6 +341,7 @@ const productos = [
     id: "phone-04",
     titulo: "Samsung s22 ultra",
     imagen: "first-file//img/phone/11.jpg",
+    details: "nike",
     categoria: {
       nombre: "Samsung s22 ultra",
       id: "phone"
@@ -323,6 +354,7 @@ const productos = [
     id: "abrigo-01",
     titulo: "Abrigo 01",
     imagen: "first-file//img/abrigos/01.jpg",
+    details: "nike",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -333,6 +365,7 @@ const productos = [
     id: "abrigo-02",
     titulo: "Abrigo 02",
     imagen: "first-file//img/abrigos/02.jpg",
+    details: "nike",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -343,6 +376,7 @@ const productos = [
     id: "abrigo-03",
     titulo: "Abrigo 03",
     imagen: "first-file//img/abrigos/03.jpg",
+    details: "nike",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -353,6 +387,7 @@ const productos = [
     id: "abrigo-04",
     titulo: "Abrigo 04",
     imagen: "first-file//img/abrigos/04.jpg",
+    details: "nike",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -363,6 +398,7 @@ const productos = [
     id: "abrigo-05",
     titulo: "Abrigo 05",
     imagen: "first-file//img/abrigos/05.jpg",
+    details: "nike",
     categoria: {
       nombre: "Abrigos",
       id: "abrigos"
@@ -392,7 +428,7 @@ function cargarProductos(productosElegidos) {
   <div class="row">
       <div class="details">
           <span>${producto.titulo}</span>
-          <p>Premium headphone</p>
+          <p>${producto.details}.</p>
       </div>
       <div class="price">${producto.precio}</div>
   </div>

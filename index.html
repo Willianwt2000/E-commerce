@@ -7,15 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WtShop</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/first-file/css/style.css">
-  <link rel="stylesheet" href="/first-file/css/carrito.css">
-  <link rel="stylesheet" href="/first-file/css/menu.css">
+  <link rel="stylesheet" href="./first-file/css/style.css">
+  <link rel="stylesheet" href="./first-file/css/carrito.css">
+  <link rel="stylesheet" href="./first-file/css/menu.css">
 </head>
 
 <body>
   <div class="wrapper">
+    <!--HEADER MOBILE-->
+    <header class="header-moble">
+      <h1 class="logo">WtShop</h1>
+      <button class="open-menu" id="open-menu">
+        <i class="bi bi-list"></i>
+      </button>
+    </header>
     <!--Aside para el contenido que va en la parte de la derecha-->
     <aside>
+      <button class="close-meu" id="close-meu">
+        <i class="bi bi-x"></i>
+      </button>
       <header>
         <h1 class="logo">WtShop</h1>
       </header>
@@ -72,6 +82,7 @@
   <!--main para el contenido que va en la parte de la izquierda-->
   </div>
   <script src="./first-file/js/main.js"></script>
+  <script src="./first-file/js/menu.js"></script>
 </body>
 
 </html>
