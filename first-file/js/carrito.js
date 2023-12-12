@@ -74,6 +74,25 @@ function actualizarBotonesEliminar() {
 }
 
 function eliminarDelCarrito(e) {
+  Toastify({
+    text: "producto eliminado",
+    duration: 3000,
+    destination: "https://github.com/apvarun/toastify-js",
+    newWindow: true,
+    close: true,
+    gravity: "top", // `top` or `bottom`
+    position: "right", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "linear-gradient(to right, rgb(38, 49, 74), #785ce9)",
+      borderRadius: "2rem",
+      textTransform: 'upperCase'
+    },
+    offset: {
+      x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+      y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+    },
+  }).showToast();
   const idBoton = e.currentTarget.id;
   const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
   
@@ -86,9 +105,22 @@ function eliminarDelCarrito(e) {
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
-  productosEnCarrito.length = 0;
-  localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-  cargarProductosCarrito();
+  Swal.fire({
+    title: "¿Estas seguro?",
+    icon: "question",
+    html: `Se eliminarán ${productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)} productos.`,
+    showCancelButton: true,
+    focusConfirm: false,
+    confirmButtonText: `Si`,
+    cancelButtonText: `No`,
+    cancelButtonAriaLabel: "Thumbs down"
+  }).then((result) => {
+    if (result.isConfirmed) {
+      productosEnCarrito.length = 0;
+      localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+      cargarProductosCarrito();
+    }
+  })
 }
 
 
