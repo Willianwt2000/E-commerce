@@ -51,8 +51,8 @@
   box-shadow: 0 -1rem 0 var(--clr-white);
 }
 
-.boton-menu > i.bi-hand-index-thumb-fill,
-.boton-menu > i.bi-hand-index-thumb {
+.boton-menu>i.bi-hand-index-thumb-fill,
+.boton-menu>i.bi-hand-index-thumb {
   transform: rotateZ(90deg);
 }
 
@@ -71,4 +71,3 @@
   background-color: var(--clr-main);
   color: var(--clr-white);
 }
-

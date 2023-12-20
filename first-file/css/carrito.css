@@ -1,7 +1,7 @@
-
 .carrito-vacio {
     color: var(--clr-main);
 }
+
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
