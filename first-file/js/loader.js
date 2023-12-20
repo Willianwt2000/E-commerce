@@ -1,15 +1,11 @@
-// JavaScript para mostrar el loader mientras la página está cargando y ocultarlo cuando ha cargado completamente
-document.addEventListener('DOMContentLoaded', function () {
+// JavaScript para ocultar el loader cuando la página ha cargado
+window.addEventListener('load', function () {
   var loader = document.getElementById('loader');
   var body = document.body;
 
-  // Muestra el loader
-  loader.style.display = 'block';
+  // Oculta el loader
+  loader.style.display = 'none';
 
-
-  window.addEventListener('load', function () {
-    loader.style.display = 'none';
-    
-    body.style.display = 'block';
-  });
+  // Muestra el contenido de la página
+  body.style.display = 'block';
 });
