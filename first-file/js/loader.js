@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
   // Muestra el loader
   loader.style.display = 'block';
 
-  // Oculta el loader después de que la página ha cargado completamente
+
   window.addEventListener('load', function () {
     loader.style.display = 'none';
-    // Muestra el contenido de la página
+    
     body.style.display = 'block';
   });
 });
